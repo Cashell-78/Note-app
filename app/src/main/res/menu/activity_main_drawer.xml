@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_notes"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/menu_all_notes" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@android:drawable/btn_star"
+            android:title="@string/menu_favourite_notes" />
+        <item
+            android:id="@+id/nav_archived"
+            android:icon="@android:drawable/ic_menu_save"
+            android:title="@string/menu_archived_notes" />
+        <item
+            android:id="@+id/nav_deleted"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/menu_deleted_notes" />
+    </group>
+
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_privacy"
+                android:title="@string/menu_privacy_policy" />
+            <item
+                android:id="@+id/nav_terms"
+                android:title="@string/menu_terms_condition" />
+            <item
+                android:id="@+id/nav_licence"
+                android:title="@string/menu_licence" />
+        </menu>
+    </item>
+</menu>

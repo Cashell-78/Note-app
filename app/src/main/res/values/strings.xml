@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">X Note</string>
+    <string name="menu_all_notes">All notes</string>
+    <string name="menu_favourite_notes">Favourite notes</string>
+    <string name="menu_archived_notes">Archived notes</string>
+    <string name="menu_deleted_notes">Deleted notes</string>
+    <string name="menu_privacy_policy">Privacy and policy</string>
+    <string name="menu_terms_condition">Terms and condition</string>
+    <string name="menu_licence">Licence</string>
+    <string name="workspace_text">workspace</string>
+</resources>
